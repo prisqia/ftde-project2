@@ -1,0 +1,21 @@
+data_warehouse_rev:
+  outputs:
+    dev:
+      dbname: dvdrental
+      host: localhost
+      pass: ##enter your password
+      port: 5432
+      schema: dbt_dev
+      threads: 1
+      type: postgres
+      user: postgres
+    prod:
+      dbname: dvdrental
+      host: localhost
+      pass: ##enter your password
+      port: 5432
+      schema: dbt
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev

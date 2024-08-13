@@ -1,0 +1,562 @@
+[0m22:53:00.833206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293ED2DA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293EA930950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293EE185130>]}
+
+
+============================== 22:53:00.839577 | 304bb6c5-0567-43f1-972e-7eb8a8678736 ==============================
+[0m22:53:00.839577 [info ] [MainThread]: Running with dbt=1.8.5
+[0m22:53:00.840606 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:53:00.865330 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Prisq/.dbt')}
+[0m22:53:00.866330 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m22:53:25.573168 [debug] [MainThread]: Starter project path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:53:25.655569 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:53:25.657626 [info ] [MainThread]: Setting up your profile.
+[0m22:54:48.077904 [info ] [MainThread]: Profile data_warehouse written to C:\Users\Prisq\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:54:48.079864 [debug] [MainThread]: Command `dbt init` succeeded at 22:54:48.079864 after 107.42 seconds
+[0m22:54:48.079864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293EE21CFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293EE32DF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000293EE0EB680>]}
+[0m22:54:48.080888 [debug] [MainThread]: Flushing usage events
+[0m22:57:36.021938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D4069D970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D4069D910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D3CDA0F50>]}
+
+
+============================== 22:57:36.027293 | e32a053a-3a9e-447b-abee-58040437bccb ==============================
+[0m22:57:36.027293 [info ] [MainThread]: Running with dbt=1.8.5
+[0m22:57:36.028806 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:57:36.061328 [info ] [MainThread]: dbt version: 1.8.5
+[0m22:57:36.062338 [info ] [MainThread]: python version: 3.12.4
+[0m22:57:36.063337 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m22:57:36.064336 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m22:57:36.196895 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m22:57:36.197893 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m22:57:36.198877 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m22:57:36.200324 [info ] [MainThread]: adapter type: postgres
+[0m22:57:36.201329 [info ] [MainThread]: adapter version: 1.8.2
+[0m22:57:36.202325 [info ] [MainThread]: Configuration:
+[0m22:57:36.203323 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:57:36.204325 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:57:36.205329 [info ] [MainThread]: Required dependencies:
+[0m22:57:36.206478 [debug] [MainThread]: Executing "git --help"
+[0m22:57:36.246683 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:57:36.247693 [debug] [MainThread]: STDERR: "b''"
+[0m22:57:36.248692 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:57:36.249693 [info ] [MainThread]: Connection:
+[0m22:57:36.250688 [info ] [MainThread]:   host: localhost
+[0m22:57:36.253220 [info ] [MainThread]:   port: 5433
+[0m22:57:36.254219 [info ] [MainThread]:   user: postgres
+[0m22:57:36.255230 [info ] [MainThread]:   database: data_warehouse
+[0m22:57:36.255230 [info ] [MainThread]:   schema: dbt
+[0m22:57:36.256246 [info ] [MainThread]:   connect_timeout: 10
+[0m22:57:36.257242 [info ] [MainThread]:   role: None
+[0m22:57:36.258242 [info ] [MainThread]:   search_path: None
+[0m22:57:36.259224 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:57:36.259224 [info ] [MainThread]:   sslmode: None
+[0m22:57:36.260229 [info ] [MainThread]:   sslcert: None
+[0m22:57:36.261229 [info ] [MainThread]:   sslkey: None
+[0m22:57:36.261229 [info ] [MainThread]:   sslrootcert: None
+[0m22:57:36.262832 [info ] [MainThread]:   application_name: dbt
+[0m22:57:36.263795 [info ] [MainThread]:   retries: 1
+[0m22:57:36.264779 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m22:57:36.266773 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:57:38.944220 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:57:38.944220 [debug] [MainThread]: On debug: select 1 as id
+[0m22:57:38.945222 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:57:39.002066 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5433 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m22:57:39.037383 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:57:39.038377 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:57:39.038377 [debug] [MainThread]: On debug: No close available on handle
+[0m22:57:39.039376 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:57:39.040373 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:57:39.041372 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml> not found
+
+[0m22:57:39.042979 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5433 failed: FATAL:  password authentication failed for user "postgres"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:57:39.045747 [debug] [MainThread]: Command `dbt debug` failed at 22:57:39.044735 after 3.22 seconds
+[0m22:57:39.045747 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:57:39.046752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D3F822C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D407C1D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D3FA1E900>]}
+[0m22:57:39.046752 [debug] [MainThread]: Flushing usage events
+[0m23:00:56.036499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D53782F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D24C0EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D55B0440>]}
+
+
+============================== 23:00:56.041498 | c2f0bb8d-d040-4594-91bf-8a4ef3a24979 ==============================
+[0m23:00:56.041498 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:00:56.043091 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:00:59.694225 [debug] [MainThread]: Starter project path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:00:59.710757 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:00:59.712269 [info ] [MainThread]: Setting up your profile.
+[0m23:02:55.845140 [info ] [MainThread]: Profile data_warehouse written to C:\Users\Prisq\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:02:55.847117 [debug] [MainThread]: Command `dbt init` succeeded at 23:02:55.847117 after 119.99 seconds
+[0m23:02:55.847117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D5EBC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D5C17020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208D5C14E90>]}
+[0m23:02:55.848130 [debug] [MainThread]: Flushing usage events
+[0m23:04:49.404663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B7471DA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B740D1070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B716309E0>]}
+
+
+============================== 23:04:49.411864 | 51edf1cc-a3fc-4c17-83ff-db0fea5276f6 ==============================
+[0m23:04:49.411864 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:04:49.413856 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:04:49.453622 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:04:49.454611 [info ] [MainThread]: python version: 3.12.4
+[0m23:04:49.455616 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m23:04:49.456622 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m23:04:49.591225 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m23:04:49.593221 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m23:04:49.593221 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m23:04:49.595227 [info ] [MainThread]: adapter type: postgres
+[0m23:04:49.596237 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:04:49.597749 [info ] [MainThread]: Configuration:
+[0m23:04:49.598762 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:04:49.599759 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:04:49.600763 [info ] [MainThread]: Required dependencies:
+[0m23:04:49.601770 [debug] [MainThread]: Executing "git --help"
+[0m23:04:49.645554 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:04:49.646555 [debug] [MainThread]: STDERR: "b''"
+[0m23:04:49.647547 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:04:49.649548 [info ] [MainThread]: Connection:
+[0m23:04:49.649548 [info ] [MainThread]:   host: postgres
+[0m23:04:49.651057 [info ] [MainThread]:   port: 5432
+[0m23:04:49.651057 [info ] [MainThread]:   user: postgres
+[0m23:04:49.652068 [info ] [MainThread]:   database: data_warehouse
+[0m23:04:49.653063 [info ] [MainThread]:   schema: dbt
+[0m23:04:49.653063 [info ] [MainThread]:   connect_timeout: 10
+[0m23:04:49.654065 [info ] [MainThread]:   role: None
+[0m23:04:49.655065 [info ] [MainThread]:   search_path: None
+[0m23:04:49.656066 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:04:49.656066 [info ] [MainThread]:   sslmode: None
+[0m23:04:49.657065 [info ] [MainThread]:   sslcert: None
+[0m23:04:49.658063 [info ] [MainThread]:   sslkey: None
+[0m23:04:49.658063 [info ] [MainThread]:   sslrootcert: None
+[0m23:04:49.659063 [info ] [MainThread]:   application_name: dbt
+[0m23:04:49.659063 [info ] [MainThread]:   retries: 1
+[0m23:04:49.660067 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m23:04:49.661575 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:04:49.737716 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:04:49.737716 [debug] [MainThread]: On debug: select 1 as id
+[0m23:04:49.738991 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:04:52.439124 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "postgres" to address: No such host is known. 
+
+[0m23:04:55.150870 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:04:55.151891 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:04:55.151891 [debug] [MainThread]: On debug: No close available on handle
+[0m23:04:55.152888 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:04:55.153882 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:04:55.153882 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml> not found
+
+[0m23:04:55.155392 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "postgres" to address: No such host is known. 
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:04:55.158404 [debug] [MainThread]: Command `dbt debug` failed at 23:04:55.157399 after 5.94 seconds
+[0m23:04:55.158404 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:04:55.159402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B7507E6C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B75160F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B742AC5F0>]}
+[0m23:04:55.159402 [debug] [MainThread]: Flushing usage events
+[0m23:07:00.220268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002143347CD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021436503020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021436BE7EC0>]}
+
+
+============================== 23:07:00.226009 | 4f5fb065-5d77-4cac-9d5b-e314efd97b0f ==============================
+[0m23:07:00.226009 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:07:00.227019 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:07:00.256134 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:07:00.258136 [info ] [MainThread]: python version: 3.12.4
+[0m23:07:00.259138 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m23:07:00.260262 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m23:07:00.389772 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m23:07:00.391331 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m23:07:00.392291 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m23:07:00.393809 [info ] [MainThread]: adapter type: postgres
+[0m23:07:00.394827 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:07:00.394827 [info ] [MainThread]: Configuration:
+[0m23:07:00.395827 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:07:00.397827 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:07:00.398828 [info ] [MainThread]: Required dependencies:
+[0m23:07:00.400827 [debug] [MainThread]: Executing "git --help"
+[0m23:07:00.438754 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:07:00.439752 [debug] [MainThread]: STDERR: "b''"
+[0m23:07:00.440754 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:07:00.441753 [info ] [MainThread]: Connection:
+[0m23:07:00.442754 [info ] [MainThread]:   host: postgres
+[0m23:07:00.442754 [info ] [MainThread]:   port: 5432
+[0m23:07:00.444323 [info ] [MainThread]:   user: postgres
+[0m23:07:00.445273 [info ] [MainThread]:   database: data_warehouse
+[0m23:07:00.446271 [info ] [MainThread]:   schema: dbt
+[0m23:07:00.447272 [info ] [MainThread]:   connect_timeout: 10
+[0m23:07:00.447272 [info ] [MainThread]:   role: None
+[0m23:07:00.448272 [info ] [MainThread]:   search_path: None
+[0m23:07:00.449272 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:07:00.450271 [info ] [MainThread]:   sslmode: None
+[0m23:07:00.452272 [info ] [MainThread]:   sslcert: None
+[0m23:07:00.454276 [info ] [MainThread]:   sslkey: None
+[0m23:07:00.455274 [info ] [MainThread]:   sslrootcert: None
+[0m23:07:00.455274 [info ] [MainThread]:   application_name: dbt
+[0m23:07:00.456649 [info ] [MainThread]:   retries: 1
+[0m23:07:00.457649 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m23:07:00.458648 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:07:00.528030 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:07:00.528030 [debug] [MainThread]: On debug: select 1 as id
+[0m23:07:00.529537 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:07:03.247939 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "postgres" to address: No such host is known. 
+
+[0m23:07:05.949496 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:07:05.950474 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:07:05.950474 [debug] [MainThread]: On debug: No close available on handle
+[0m23:07:05.951487 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:07:05.952474 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:07:05.953474 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml> not found
+
+[0m23:07:05.954487 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "postgres" to address: No such host is known. 
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:07:05.957486 [debug] [MainThread]: Command `dbt debug` failed at 23:07:05.956487 after 5.91 seconds
+[0m23:07:05.957486 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:07:05.957486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021436F23350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021437121D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021436FE85C0>]}
+[0m23:07:05.959055 [debug] [MainThread]: Flushing usage events
+[0m23:08:49.734075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027449503950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002744BF3CE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002744BF3D880>]}
+
+
+============================== 23:08:49.739612 | 6438c3d9-e6dc-48cc-8bb5-9a7f3c1a369a ==============================
+[0m23:08:49.739612 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:08:49.740613 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:08:49.768726 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:08:49.770127 [info ] [MainThread]: python version: 3.12.4
+[0m23:08:49.771180 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m23:08:49.772156 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m23:08:49.904167 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m23:08:49.905752 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m23:08:49.906686 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m23:08:49.908687 [info ] [MainThread]: adapter type: postgres
+[0m23:08:49.909684 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:08:49.909684 [info ] [MainThread]: Configuration:
+[0m23:08:49.910687 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:08:49.911686 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:08:49.914688 [info ] [MainThread]: Required dependencies:
+[0m23:08:49.915688 [debug] [MainThread]: Executing "git --help"
+[0m23:08:49.953112 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:08:49.953112 [debug] [MainThread]: STDERR: "b''"
+[0m23:08:49.954112 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:08:49.955113 [info ] [MainThread]: Connection:
+[0m23:08:49.956040 [info ] [MainThread]:   host: postgres
+[0m23:08:49.957068 [info ] [MainThread]:   port: 5432
+[0m23:08:49.958076 [info ] [MainThread]:   user: postgres
+[0m23:08:49.959075 [info ] [MainThread]:   database: data_warehouse
+[0m23:08:49.959075 [info ] [MainThread]:   schema: dbt
+[0m23:08:49.960470 [info ] [MainThread]:   connect_timeout: 10
+[0m23:08:49.960470 [info ] [MainThread]:   role: None
+[0m23:08:49.962472 [info ] [MainThread]:   search_path: None
+[0m23:08:49.963480 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:08:49.965479 [info ] [MainThread]:   sslmode: None
+[0m23:08:49.967471 [info ] [MainThread]:   sslcert: None
+[0m23:08:49.968473 [info ] [MainThread]:   sslkey: None
+[0m23:08:49.968473 [info ] [MainThread]:   sslrootcert: None
+[0m23:08:49.969984 [info ] [MainThread]:   application_name: dbt
+[0m23:08:49.970992 [info ] [MainThread]:   retries: 1
+[0m23:08:49.971995 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m23:08:49.972995 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:08:50.045964 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:08:50.047512 [debug] [MainThread]: On debug: select 1 as id
+[0m23:08:50.047512 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:08:52.749199 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "postgres" to address: No such host is known. 
+
+[0m23:08:55.452296 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:08:55.452832 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:08:55.453852 [debug] [MainThread]: On debug: No close available on handle
+[0m23:08:55.453852 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:08:55.454842 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:08:55.455847 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml> not found
+
+[0m23:08:55.456844 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "postgres" to address: No such host is known. 
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:08:55.458844 [debug] [MainThread]: Command `dbt debug` failed at 23:08:55.458844 after 5.89 seconds
+[0m23:08:55.459839 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:08:55.460843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002744B5B8200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002744BEF1460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002744BD956A0>]}
+[0m23:08:55.461842 [debug] [MainThread]: Flushing usage events
+[0m23:11:49.688442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025876E4CD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025879F84830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002587A683B90>]}
+
+
+============================== 23:11:49.693440 | 8e954245-3d2b-44e6-9b28-228a1d191bc2 ==============================
+[0m23:11:49.693440 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:11:49.694444 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:11:57.216624 [info ] [MainThread]: A project called data_warehouse already exists here.
+[0m23:11:57.217619 [debug] [MainThread]: Command `dbt init` succeeded at 23:11:57.217619 after 7.70 seconds
+[0m23:11:57.218619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258770FDBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002587A682A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025879D4C350>]}
+[0m23:11:57.218619 [debug] [MainThread]: Flushing usage events
+[0m23:12:22.201905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D736C1280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D7622B590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D7642D130>]}
+
+
+============================== 23:12:22.207906 | 715d5f85-cc9f-43ad-be33-55ce65c6acd9 ==============================
+[0m23:12:22.207906 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:12:22.208577 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:12:25.786700 [debug] [MainThread]: Starter project path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:12:25.810693 [info ] [MainThread]: 
+Your new dbt project "data_warehouse_rev" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:12:25.812693 [info ] [MainThread]: Setting up your profile.
+[0m23:13:07.090533 [info ] [MainThread]: Profile data_warehouse_rev written to C:\Users\Prisq\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:13:07.093535 [debug] [MainThread]: Command `dbt init` succeeded at 23:13:07.092531 after 45.01 seconds
+[0m23:13:07.094525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D7636F830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D72BB1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D763A0B30>]}
+[0m23:13:07.095525 [debug] [MainThread]: Flushing usage events
+[0m23:14:45.990732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C992025070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C99498B380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9949894C0>]}
+
+
+============================== 23:14:45.996809 | 169ea7b4-1569-4c47-a943-3b6d7c651b18 ==============================
+[0m23:14:45.996809 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:14:45.998812 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:14:46.020507 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:14:46.022506 [info ] [MainThread]: python version: 3.12.4
+[0m23:14:46.023507 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m23:14:46.024011 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m23:14:46.146979 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m23:14:46.148911 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m23:14:46.149917 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m23:14:46.150919 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m23:14:46.152915 [debug] [MainThread]: Command `dbt debug` failed at 23:14:46.151917 after 0.34 seconds
+[0m23:14:46.154910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C992025070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C994D8D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9944782C0>]}
+[0m23:14:46.154910 [debug] [MainThread]: Flushing usage events
+[0m23:16:51.223731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6D9FB6180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6D6AC0B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6D946B4D0>]}
+
+
+============================== 23:16:51.230738 | 0c3b5070-40df-4633-b4d9-4523b9aa5ded ==============================
+[0m23:16:51.230738 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:16:51.233254 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:16:51.260823 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:16:51.262819 [info ] [MainThread]: python version: 3.12.4
+[0m23:16:51.265352 [info ] [MainThread]: python path: C:\PSQ\DE\Learning\belajar_docker\dbt\.venv\Scripts\python.exe
+[0m23:16:51.266364 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m23:16:51.397073 [info ] [MainThread]: Using profiles dir at C:\Users\Prisq\.dbt
+[0m23:16:51.400074 [info ] [MainThread]: Using profiles.yml file at C:\Users\Prisq\.dbt\profiles.yml
+[0m23:16:51.401090 [info ] [MainThread]: Using dbt_project.yml file at C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+[0m23:16:51.402101 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m23:16:51.404139 [debug] [MainThread]: Command `dbt debug` failed at 23:16:51.404139 after 0.35 seconds
+[0m23:16:51.405156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6D681D430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6DA5F3590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6D946B4D0>]}
+[0m23:16:51.405156 [debug] [MainThread]: Flushing usage events
+[0m20:04:12.911812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F541A33EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5423A1F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5444A59D0>]}
+
+
+============================== 20:04:12.916798 | a4e78d52-25f9-42c1-8958-5ce028c34177 ==============================
+[0m20:04:12.916798 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:04:12.917803 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:04:12.917803 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:04:12.919820 [debug] [MainThread]: Command `dbt docs serve` failed at 20:04:12.919820 after 0.08 seconds
+[0m20:04:12.920822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F541A33EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5444A59D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5444A5A90>]}
+[0m20:04:12.920822 [debug] [MainThread]: Flushing usage events
+[0m20:05:23.812629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE27732F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE280CCE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE2A1A6D60>]}
+
+
+============================== 20:05:23.817619 | 72125c46-ef0e-4c2a-9f60-45b6b2960b5a ==============================
+[0m20:05:23.817619 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:05:23.818617 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt docs serve', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:05:24.043551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '72125c46-ef0e-4c2a-9f60-45b6b2960b5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE275F36D0>]}
+[0m20:05:24.095548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '72125c46-ef0e-4c2a-9f60-45b6b2960b5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE2A050790>]}
+[0m20:05:24.128680 [error] [MainThread]: Encountered an error:
+[WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+[0m20:05:24.158056 [error] [MainThread]: Traceback (most recent call last):
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\main.py", line 303, in docs_serve
+    results = task.run()
+  File "c:\python\python39\lib\site-packages\dbt\task\docs\serve.py", line 15, in run
+    os.chdir(self.config.project_target_path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+
+[0m20:05:24.162061 [debug] [MainThread]: Command `dbt docs serve` failed at 20:05:24.162061 after 0.42 seconds
+[0m20:05:24.162061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE27732F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE2A1667C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE2A570FD0>]}
+[0m20:05:24.163059 [debug] [MainThread]: Flushing usage events
+[0m20:07:47.366175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294D7EE3EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294DA956A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294DA956160>]}
+
+
+============================== 20:07:47.370180 | e4076040-43e4-486a-b619-9d1f4cf9cc8e ==============================
+[0m20:07:47.370180 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:07:47.371179 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\logs', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs serve', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:07:47.567734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e4076040-43e4-486a-b619-9d1f4cf9cc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294D82C4AC0>]}
+[0m20:07:47.619758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e4076040-43e4-486a-b619-9d1f4cf9cc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294D9ED0640>]}
+[0m20:07:47.649920 [error] [MainThread]: Encountered an error:
+[WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+[0m20:07:47.651923 [error] [MainThread]: Traceback (most recent call last):
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\main.py", line 303, in docs_serve
+    results = task.run()
+  File "c:\python\python39\lib\site-packages\dbt\task\docs\serve.py", line 15, in run
+    os.chdir(self.config.project_target_path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+
+[0m20:07:47.654921 [debug] [MainThread]: Command `dbt docs serve` failed at 20:07:47.654921 after 0.37 seconds
+[0m20:07:47.655922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294D7EE3EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294D7D80AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294DAD14A00>]}
+[0m20:07:47.656925 [debug] [MainThread]: Flushing usage events
+[0m20:10:41.181045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76C8F2F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76D26C970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76F319580>]}
+
+
+============================== 20:10:41.185044 | 70e39b78-7fb1-4e71-bccf-6e3d7e5ce5ba ==============================
+[0m20:10:41.185044 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:10:41.186045 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt docs serve', 'send_anonymous_usage_stats': 'True'}
+[0m20:10:41.187043 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:10:41.190026 [debug] [MainThread]: Command `dbt docs serve` failed at 20:10:41.189024 after 0.09 seconds
+[0m20:10:41.190026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76C8F2F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76F319580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76F319A90>]}
+[0m20:10:41.191023 [debug] [MainThread]: Flushing usage events
+[0m20:12:28.536485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393BB91F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393C52CE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393E606D60>]}
+
+
+============================== 20:12:28.541486 | a02306e8-8fae-4a03-bfe7-0a60aa2362d6 ==============================
+[0m20:12:28.541486 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:12:28.542485 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'log_path': 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt docs serve', 'send_anonymous_usage_stats': 'True'}
+[0m20:12:28.736322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a02306e8-8fae-4a03-bfe7-0a60aa2362d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393BA536D0>]}
+[0m20:12:28.786915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a02306e8-8fae-4a03-bfe7-0a60aa2362d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393E4B0790>]}
+[0m20:12:28.809924 [error] [MainThread]: Encountered an error:
+[WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+[0m20:12:28.811923 [error] [MainThread]: Traceback (most recent call last):
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\python39\lib\site-packages\dbt\cli\main.py", line 303, in docs_serve
+    results = task.run()
+  File "c:\python\python39\lib\site-packages\dbt\task\docs\serve.py", line 15, in run
+    os.chdir(self.config.project_target_path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\PSQ\\DE\\Learning\\belajar_docker\\dbt\\target'
+
+[0m20:12:28.814911 [debug] [MainThread]: Command `dbt docs serve` failed at 20:12:28.814911 after 0.36 seconds
+[0m20:12:28.814911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393BB91F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393E5C67C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002393E9DFFD0>]}
+[0m20:12:28.815909 [debug] [MainThread]: Flushing usage events
+[0m20:30:24.200767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014815B34EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014817471F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148185ACA90>]}
+
+
+============================== 20:30:24.210165 | 52f7f02c-3337-409b-a365-23c64a32bd84 ==============================
+[0m20:30:24.210165 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:30:24.211142 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Prisq\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -s top_film.sql', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:30:24.212179 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\PSQ\DE\Learning\belajar_docker\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:30:24.214167 [debug] [MainThread]: Command `dbt run` failed at 20:30:24.214167 after 0.08 seconds
+[0m20:30:24.214167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014815B34EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148185AC190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148185AC8B0>]}
+[0m20:30:24.215169 [debug] [MainThread]: Flushing usage events
